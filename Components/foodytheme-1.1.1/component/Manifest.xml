@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<component format="1" id="foodytheme">
+  <name>Foody Theme</name>
+  <publisher>Xamarin Inc.</publisher>
+  <publisher-url>http://www.xamarin.com</publisher-url>
+  <version>1.1.1</version>
+  <summary>Foody theme and sample application for iOS.</summary>
+  <screenshots>
+    <img src="screenshots/00.png" title="00" />
+    <img src="screenshots/01.png" title="01" />
+    <img src="screenshots/02.png" title="02" />
+  </screenshots>
+  <samples>
+    <sample id="FoodyTheme.iOS.Sample">
+      <name>iOS Samples</name>
+      <summary>iOS Samples</summary>
+    </sample>
+    <sample id="FoodyTheme.iOS.Sample-Classic">
+      <name>iOS Samples</name>
+      <summary>iOS Samples</summary>
+    </sample>
+  </samples>
+</component>

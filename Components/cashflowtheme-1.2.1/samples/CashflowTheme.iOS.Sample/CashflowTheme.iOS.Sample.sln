@@ -1,0 +1,68 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CashflowTheme.iOS.Sample", "CashflowTheme.iOS.Sample.csproj", "{7D89E2FA-A7E9-40F2-A0C2-6CCB337AA1BB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+		Release|iPhone = Release|iPhone
+		Ad-Hoc|iPhone = Ad-Hoc|iPhone
+		AppStore|iPhone = AppStore|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{122C74D4-4FB5-4B90-95FE-7E6124ACE0B5}.Ad-Hoc|iPhone.ActiveCfg = Release|Any CPU
+		{122C74D4-4FB5-4B90-95FE-7E6124ACE0B5}.Ad-Hoc|iPhone.Build.0 = Release|Any CPU
+		{122C74D4-4FB5-4B90-95FE-7E6124ACE0B5}.AppStore|iPhone.ActiveCfg = Release|Any CPU
+		{122C74D4-4FB5-4B90-95FE-7E6124ACE0B5}.AppStore|iPhone.Build.0 = Release|Any CPU
+		{122C74D4-4FB5-4B90-95FE-7E6124ACE0B5}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{122C74D4-4FB5-4B90-95FE-7E6124ACE0B5}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{122C74D4-4FB5-4B90-95FE-7E6124ACE0B5}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{122C74D4-4FB5-4B90-95FE-7E6124ACE0B5}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{122C74D4-4FB5-4B90-95FE-7E6124ACE0B5}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{122C74D4-4FB5-4B90-95FE-7E6124ACE0B5}.Release|iPhone.Build.0 = Release|Any CPU
+		{122C74D4-4FB5-4B90-95FE-7E6124ACE0B5}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{122C74D4-4FB5-4B90-95FE-7E6124ACE0B5}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{4ABF6F39-63AC-40A3-88F1-325C42F872A1}.Ad-Hoc|iPhone.ActiveCfg = Release|Any CPU
+		{4ABF6F39-63AC-40A3-88F1-325C42F872A1}.Ad-Hoc|iPhone.Build.0 = Release|Any CPU
+		{4ABF6F39-63AC-40A3-88F1-325C42F872A1}.AppStore|iPhone.ActiveCfg = Release|Any CPU
+		{4ABF6F39-63AC-40A3-88F1-325C42F872A1}.AppStore|iPhone.Build.0 = Release|Any CPU
+		{4ABF6F39-63AC-40A3-88F1-325C42F872A1}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{4ABF6F39-63AC-40A3-88F1-325C42F872A1}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{4ABF6F39-63AC-40A3-88F1-325C42F872A1}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{4ABF6F39-63AC-40A3-88F1-325C42F872A1}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{4ABF6F39-63AC-40A3-88F1-325C42F872A1}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{4ABF6F39-63AC-40A3-88F1-325C42F872A1}.Release|iPhone.Build.0 = Release|Any CPU
+		{4ABF6F39-63AC-40A3-88F1-325C42F872A1}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{4ABF6F39-63AC-40A3-88F1-325C42F872A1}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{7D89E2FA-A7E9-40F2-A0C2-6CCB337AA1BB}.Ad-Hoc|iPhone.ActiveCfg = Ad-Hoc|iPhone
+		{7D89E2FA-A7E9-40F2-A0C2-6CCB337AA1BB}.Ad-Hoc|iPhone.Build.0 = Ad-Hoc|iPhone
+		{7D89E2FA-A7E9-40F2-A0C2-6CCB337AA1BB}.AppStore|iPhone.ActiveCfg = AppStore|iPhone
+		{7D89E2FA-A7E9-40F2-A0C2-6CCB337AA1BB}.AppStore|iPhone.Build.0 = AppStore|iPhone
+		{7D89E2FA-A7E9-40F2-A0C2-6CCB337AA1BB}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{7D89E2FA-A7E9-40F2-A0C2-6CCB337AA1BB}.Debug|iPhone.Build.0 = Debug|iPhone
+		{7D89E2FA-A7E9-40F2-A0C2-6CCB337AA1BB}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{7D89E2FA-A7E9-40F2-A0C2-6CCB337AA1BB}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{7D89E2FA-A7E9-40F2-A0C2-6CCB337AA1BB}.Release|iPhone.ActiveCfg = Release|iPhone
+		{7D89E2FA-A7E9-40F2-A0C2-6CCB337AA1BB}.Release|iPhone.Build.0 = Release|iPhone
+		{7D89E2FA-A7E9-40F2-A0C2-6CCB337AA1BB}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{7D89E2FA-A7E9-40F2-A0C2-6CCB337AA1BB}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{9F26D6E5-EC4A-445A-AECF-16409DF732D7}.Ad-Hoc|iPhone.ActiveCfg = Release|Any CPU
+		{9F26D6E5-EC4A-445A-AECF-16409DF732D7}.Ad-Hoc|iPhone.Build.0 = Release|Any CPU
+		{9F26D6E5-EC4A-445A-AECF-16409DF732D7}.AppStore|iPhone.ActiveCfg = Release|Any CPU
+		{9F26D6E5-EC4A-445A-AECF-16409DF732D7}.AppStore|iPhone.Build.0 = Release|Any CPU
+		{9F26D6E5-EC4A-445A-AECF-16409DF732D7}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{9F26D6E5-EC4A-445A-AECF-16409DF732D7}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{9F26D6E5-EC4A-445A-AECF-16409DF732D7}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{9F26D6E5-EC4A-445A-AECF-16409DF732D7}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{9F26D6E5-EC4A-445A-AECF-16409DF732D7}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{9F26D6E5-EC4A-445A-AECF-16409DF732D7}.Release|iPhone.Build.0 = Release|Any CPU
+		{9F26D6E5-EC4A-445A-AECF-16409DF732D7}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{9F26D6E5-EC4A-445A-AECF-16409DF732D7}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = CashflowTheme.iOS.Sample.csproj
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<component format="1" id="cashflowtheme">
+  <name>Cashflow theme</name>
+  <publisher>Xamarin Inc.</publisher>
+  <publisher-url>http://xamarin.com/</publisher-url>
+  <version>1.2.1</version>
+  <summary>Cashflow theme control for iOS.</summary>
+  <screenshots>
+    <img src="screenshots/00.png" title="00" />
+    <img src="screenshots/01.png" title="01" />
+  </screenshots>
+  <samples>
+    <sample id="CashflowTheme.iOS.Sample">
+      <name>iOS Sample Unified</name>
+      <summary>iOS Sample Unified</summary>
+    </sample>
+    <sample id="CashflowTheme.iOS.Sample-Classic">
+      <name>iOS Sample Classic</name>
+      <summary>iOS Sample Classic</summary>
+    </sample>
+  </samples>
+</component>

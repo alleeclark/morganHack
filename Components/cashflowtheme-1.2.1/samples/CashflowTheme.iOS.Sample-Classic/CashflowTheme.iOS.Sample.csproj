@@ -1,0 +1,319 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
+    <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <ProjectGuid>{7D89E2FA-A7E9-40F2-A0C2-6CCB337AA1BB}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>CashflowTheme.iOS.Sample</RootNamespace>
+    <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhoneSimulator' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\unified\iPhoneSimulator\Debug</OutputPath>
+    <IntermediateOutputPath>obj\unified\iPhoneSimulator\Debug</IntermediateOutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <MtouchArch>i386</MtouchArch>
+    <MtouchLink>None</MtouchLink>
+    <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+    <CodesignKey>iPhone Developer</CodesignKey>
+    <MtouchDebug>true</MtouchDebug>
+    <AssemblyName>CashflowThemeiOSSample</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhoneSimulator' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\unified\iPhoneSimulator\Release</OutputPath>
+    <IntermediateOutputPath>obj\unified\iPhoneSimulator\Release</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <MtouchArch>i386</MtouchArch>
+    <MtouchLink>None</MtouchLink>
+    <CodesignKey>iPhone Developer</CodesignKey>
+    <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+    <AssemblyName>CashflowThemeiOSSample1</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhone' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\unified\iPhone\Debug</OutputPath>
+    <IntermediateOutputPath>obj\unified\iPhone\Debug</IntermediateOutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <MtouchArch>ARMv7, ARM64</MtouchArch>
+    <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+    <CodesignKey>iPhone Developer</CodesignKey>
+    <MtouchDebug>true</MtouchDebug>
+    <AssemblyName>CashflowThemeiOSSample</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhone' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\unified\iPhone\Release</OutputPath>
+    <IntermediateOutputPath>obj\unified\iPhone\Release</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+    <MtouchArch>ARMv7, ARM64</MtouchArch>
+    <ConsolePause>false</ConsolePause>
+    <CodesignKey>iPhone Developer</CodesignKey>
+    <AssemblyName>CashflowThemeiOSSample</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Ad-Hoc|iPhone' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\unified\iPhone\Ad-Hoc</OutputPath>
+    <IntermediateOutputPath>obj\unified\iPhone\Ad-Hoc</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <MtouchArch>ARMv7, ARM64</MtouchArch>
+    <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+    <BuildIpa>true</BuildIpa>
+    <CodesignProvision>Automatic:AdHoc</CodesignProvision>
+    <CodesignKey>iPhone Distribution</CodesignKey>
+    <AssemblyName>CashflowThemeiOSSample</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'AppStore|iPhone' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\unified\iPhone\AppStore</OutputPath>
+    <IntermediateOutputPath>obj\unified\iPhone\AppStore</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <MtouchArch>ARMv7, ARM64</MtouchArch>
+    <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+    <CodesignProvision>Automatic:AppStore</CodesignProvision>
+    <CodesignKey>iPhone Distribution</CodesignKey>
+    <AssemblyName>CashflowThemeiOSSample</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="Xamarin.iOS" />
+    <Reference Include="CashflowTheme.Controls.iOS.ADVPopoverProgressBar">
+      <HintPath>../../lib\/ios-unified/CashflowTheme.Controls.iOS.ADVPopoverProgressBar.dll</HintPath>
+    </Reference>
+    <Reference Include="CashflowTheme.Controls.iOS.Switches">
+      <HintPath>../../lib\/ios-unified/CashflowTheme.Controls.iOS.Switches.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Themes.Cashflow.iOS">
+      <HintPath>../../lib\/ios-unified/Xamarin.Themes.Cashflow.iOS.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\Contents.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Default-568h%402x.png" />
+    <BundleResource Include="Resources\action_menu.png" />
+    <BundleResource Include="Resources\action_menu%402x.png" />
+    <BundleResource Include="Resources\activity-car.png" />
+    <BundleResource Include="Resources\activity-car%402x.png" />
+    <BundleResource Include="Resources\add-revision.png" />
+    <BundleResource Include="Resources\add-revision%402x.png" />
+    <BundleResource Include="Resources\Card_detail.png" />
+    <BundleResource Include="Resources\Card_detail%402x.png" />
+    <BundleResource Include="Resources\Card_detail%402x~ipad.png" />
+    <BundleResource Include="Resources\Card_detail~ipad.png" />
+    <BundleResource Include="Resources\card_notes%402x~ipad.png" />
+    <BundleResource Include="Resources\card_notes~ipad.png" />
+    <BundleResource Include="Resources\card_preview.png" />
+    <BundleResource Include="Resources\card_preview%402x.png" />
+    <BundleResource Include="Resources\card_preview%402x~ipad.png" />
+    <BundleResource Include="Resources\card_preview~ipad.png" />
+    <BundleResource Include="Resources\Default.png" />
+    <BundleResource Include="Resources\Default%402x.png" />
+    <BundleResource Include="Resources\Default-Landscape.png" />
+    <BundleResource Include="Resources\Default-Landscape%402x.png" />
+    <BundleResource Include="Resources\Default-Portrait.png" />
+    <BundleResource Include="Resources\Default-Portrait%402x.png" />
+    <BundleResource Include="Resources\icon.png" />
+    <BundleResource Include="Resources\icon%402x.png" />
+    <BundleResource Include="Resources\icon144%402x.png" />
+    <BundleResource Include="Resources\icon72.png" />
+    <BundleResource Include="Resources\menu-separator.png" />
+    <BundleResource Include="Resources\menu-separator%402x.png" />
+    <BundleResource Include="Resources\revisions-bg.png" />
+    <BundleResource Include="Resources\revisions-bg%402x.png" />
+    <BundleResource Include="Resources\table-row-bkg.png" />
+    <BundleResource Include="Resources\table-row-bkg%402x.png" />
+    <BundleResource Include="Resources\table-separator.png" />
+    <BundleResource Include="Resources\table-separator%402x.png" />
+    <BundleResource Include="Resources\table-separator%402x~ipad.png" />
+    <BundleResource Include="Resources\table-separator~ipad.png" />
+    <BundleResource Include="Resources\text-input.png" />
+    <BundleResource Include="Resources\text-input%402x.png" />
+    <BundleResource Include="Resources\Images\Common\user_1.png" />
+    <BundleResource Include="Resources\Images\Common\user_1%402x.png" />
+    <BundleResource Include="Resources\Images\Common\user_frame.png" />
+    <BundleResource Include="Resources\Images\Common\user_frame%402x.png" />
+    <BundleResource Include="Resources\Images\iPad\black\background.png" />
+    <BundleResource Include="Resources\Images\iPad\black\background%402x.png" />
+    <BundleResource Include="Resources\Images\iPad\black\table-row-bkg.png" />
+    <BundleResource Include="Resources\Images\iPad\black\table-row-bkg%402x.png" />
+    <BundleResource Include="Resources\Images\iPad\black\table-separator%402x~ipad.png" />
+    <BundleResource Include="Resources\Images\iPad\black\table-separator~ipad.png" />
+    <BundleResource Include="Resources\Images\iPad\brown\background%402x~ipad.png" />
+    <BundleResource Include="Resources\Images\iPad\brown\background~ipad.png" />
+    <BundleResource Include="Resources\Images\iPad\brown\table-row-bkg%402x~ipad.png" />
+    <BundleResource Include="Resources\Images\iPad\brown\table-row-bkg~ipad.png" />
+    <BundleResource Include="Resources\Images\iPad\brown\table-separator%402x~ipad.png" />
+    <BundleResource Include="Resources\Images\iPad\brown\table-separator~ipad.png" />
+    <BundleResource Include="Resources\Images\iPad\activity-car.png" />
+    <BundleResource Include="Resources\Images\iPad\activity-car%402x.png" />
+    <BundleResource Include="Resources\Images\iPad\Card_detail%402x~ipad.png" />
+    <BundleResource Include="Resources\Images\iPad\Card_detail~ipad.png" />
+    <BundleResource Include="Resources\Images\iPad\card_notes%402x~ipad.png" />
+    <BundleResource Include="Resources\Images\iPad\card_notes~ipad.png" />
+    <BundleResource Include="Resources\Images\iPad\card_preview%402x~ipad.png" />
+    <BundleResource Include="Resources\Images\iPad\card_preview~ipad.png" />
+    <BundleResource Include="Resources\Images\iPhone\black\background.png" />
+    <BundleResource Include="Resources\Images\iPhone\black\background%402x.png" />
+    <BundleResource Include="Resources\Images\iPhone\black\background-568h%402x.png" />
+    <BundleResource Include="Resources\Images\iPhone\black\button-menu.png" />
+    <BundleResource Include="Resources\Images\iPhone\black\button-menu%402x.png" />
+    <BundleResource Include="Resources\Images\iPhone\black\Default-568h%402x.png" />
+    <BundleResource Include="Resources\Images\iPhone\black\menu-clock.png" />
+    <BundleResource Include="Resources\Images\iPhone\black\menu-clock%402x.png" />
+    <BundleResource Include="Resources\Images\iPhone\black\menu-eye.png" />
+    <BundleResource Include="Resources\Images\iPhone\black\menu-eye%402x.png" />
+    <BundleResource Include="Resources\Images\iPhone\black\menu-header.png" />
+    <BundleResource Include="Resources\Images\iPhone\black\menu-header%402x.png" />
+    <BundleResource Include="Resources\Images\iPhone\black\menu-home.png" />
+    <BundleResource Include="Resources\Images\iPhone\black\menu-home%402x.png" />
+    <BundleResource Include="Resources\Images\iPhone\black\menu-pin.png" />
+    <BundleResource Include="Resources\Images\iPhone\black\menu-pin%402x.png" />
+    <BundleResource Include="Resources\Images\iPhone\black\menu-separator.png" />
+    <BundleResource Include="Resources\Images\iPhone\black\menu-separator%402x.png" />
+    <BundleResource Include="Resources\Images\iPhone\black\revisions-bg.png" />
+    <BundleResource Include="Resources\Images\iPhone\black\revisions-bg%402x.png" />
+    <BundleResource Include="Resources\Images\iPhone\black\tabbar-center.png" />
+    <BundleResource Include="Resources\Images\iPhone\black\tabbar-center%402x.png" />
+    <BundleResource Include="Resources\Images\iPhone\brown\background.png" />
+    <BundleResource Include="Resources\Images\iPhone\brown\background%402x.png" />
+    <BundleResource Include="Resources\Images\iPhone\brown\background-568h%402x.png" />
+    <BundleResource Include="Resources\Images\iPhone\brown\button-menu.png" />
+    <BundleResource Include="Resources\Images\iPhone\brown\button-menu%402x.png" />
+    <BundleResource Include="Resources\Images\iPhone\brown\Default-568h%402x.png" />
+    <BundleResource Include="Resources\Images\iPhone\brown\menu-clock.png" />
+    <BundleResource Include="Resources\Images\iPhone\brown\menu-clock%402x.png" />
+    <BundleResource Include="Resources\Images\iPhone\brown\menu-eye.png" />
+    <BundleResource Include="Resources\Images\iPhone\brown\menu-eye%402x.png" />
+    <BundleResource Include="Resources\Images\iPhone\brown\menu-header.png" />
+    <BundleResource Include="Resources\Images\iPhone\brown\menu-header%402x.png" />
+    <BundleResource Include="Resources\Images\iPhone\brown\menu-home.png" />
+    <BundleResource Include="Resources\Images\iPhone\brown\menu-home%402x.png" />
+    <BundleResource Include="Resources\Images\iPhone\brown\menu-pin.png" />
+    <BundleResource Include="Resources\Images\iPhone\brown\menu-pin%402x.png" />
+    <BundleResource Include="Resources\Images\iPhone\brown\menu-separator.png" />
+    <BundleResource Include="Resources\Images\iPhone\brown\menu-separator%402x.png" />
+    <BundleResource Include="Resources\Images\iPhone\brown\revisions-bg.png" />
+    <BundleResource Include="Resources\Images\iPhone\brown\revisions-bg%402x.png" />
+    <BundleResource Include="Resources\Images\iPhone\brown\tabbar-center.png" />
+    <BundleResource Include="Resources\Images\iPhone\brown\tabbar-center%402x.png" />
+    <BundleResource Include="Resources\Images\iPhone\activity-car.png" />
+    <BundleResource Include="Resources\Images\iPhone\activity-car%402x.png" />
+    <BundleResource Include="Resources\Images\iPhone\activity-food.png" />
+    <BundleResource Include="Resources\Images\iPhone\activity-food%402x.png" />
+    <BundleResource Include="Resources\Images\iPhone\activity-holiday.png" />
+    <BundleResource Include="Resources\Images\iPhone\activity-holiday%402x.png" />
+    <BundleResource Include="Resources\Images\iPhone\activity-house.png" />
+    <BundleResource Include="Resources\Images\iPhone\activity-house%402x.png" />
+    <BundleResource Include="Resources\Images\iPhone\add-revision.png" />
+    <BundleResource Include="Resources\Images\iPhone\add-revision%402x.png" />
+    <BundleResource Include="Resources\Images\iPhone\card_notes.png" />
+    <BundleResource Include="Resources\Images\iPhone\card_notes%402x.png" />
+    <BundleResource Include="Resources\Images\iPhone\card_preview.png" />
+    <BundleResource Include="Resources\Images\iPhone\card_preview%402x.png" />
+    <BundleResource Include="Resources\Images\iPhone\sidemenu-count.png" />
+    <BundleResource Include="Resources\Images\iPhone\sidemenu-count%402x.png" />
+    <BundleResource Include="Resources\Images\iPhone\tabbar-icon1.png" />
+    <BundleResource Include="Resources\Images\iPhone\tabbar-icon1%402x.png" />
+    <BundleResource Include="Resources\Images\iPhone\tabbar-icon2.png" />
+    <BundleResource Include="Resources\Images\iPhone\tabbar-icon2%402x.png" />
+    <BundleResource Include="Resources\Images\iPhone\tabbar-icon3.png" />
+    <BundleResource Include="Resources\Images\iPhone\tabbar-icon3%402x.png" />
+    <BundleResource Include="Resources\Images\iPhone\tabbar-icon4.png" />
+    <BundleResource Include="Resources\Images\iPhone\tabbar-icon4%402x.png" />
+    <BundleResource Include="Resources\Images\iPhone\table-row-bkg.png" />
+    <BundleResource Include="Resources\Images\iPhone\table-row-bkg%402x.png" />
+    <BundleResource Include="Resources\Images\iPhone\table-separator.png" />
+    <BundleResource Include="Resources\Images\iPhone\table-separator%402x.png" />
+    <BundleResource Include="Resources\Images\iPhone\text-input.png" />
+    <BundleResource Include="Resources\Images\iPhone\text-input%402x.png" />
+    <BundleResource Include="Resources\Fonts\DINPro-Black.otf" />
+    <BundleResource Include="Resources\Fonts\DINPro-Bold.ttf" />
+    <BundleResource Include="Resources\Fonts\DINPro-Light.otf" />
+    <BundleResource Include="Resources\Fonts\DINPro-Light_0.otf" />
+    <BundleResource Include="Resources\Fonts\DINPro-Medium.otf" />
+    <BundleResource Include="Resources\Fonts\DINPro-Regular.otf" />
+    <BundleResource Include="Resources\Fonts\DINPro-Regular_0.otf" />
+    <BundleResource Include="Resources\Fonts\Segoe Print.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Info.plist" />
+    <None Include="Entitlements.plist" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Main.cs" />
+    <Compile Include="AppDelegate.cs" />
+    <Compile Include="UI\iPad\EmptyViewController.cs" />
+    <Compile Include="UI\iPad\EmptyViewController.designer.cs" />
+    <Compile Include="UI\iPad\IntelligentSplitViewController.cs" />
+    <Compile Include="UI\iPad\IntelligentSplitViewController.designer.cs" />
+    <Compile Include="UI\iPad\MasterViewControlleriPad.cs" />
+    <Compile Include="UI\iPad\MasterViewControlleriPad.designer.cs" />
+    <Compile Include="UI\iPhone\AgreementController.cs" />
+    <Compile Include="UI\iPhone\AgreementController.designer.cs" />
+    <Compile Include="UI\iPhone\AnotherElementsViewController.cs" />
+    <Compile Include="UI\iPhone\AnotherElementsViewController.designer.cs" />
+    <Compile Include="UI\iPhone\GHRevealViewController.cs" />
+    <Compile Include="UI\iPhone\ListCell.cs" />
+    <Compile Include="UI\iPhone\ListCell.designer.cs" />
+    <Compile Include="UI\iPhone\MainViewController.cs" />
+    <Compile Include="UI\iPhone\MainViewController.designer.cs" />
+    <Compile Include="UI\iPhone\MenuViewController.cs" />
+    <Compile Include="UI\iPhone\MenuViewController.designer.cs" />
+    <Compile Include="UI\iPhone\SecondViewController.cs" />
+    <Compile Include="UI\iPhone\SecondViewController.designer.cs" />
+    <Compile Include="UI\iPhone\UIElementsViewController.cs" />
+    <Compile Include="UI\iPhone\UIElementsViewController.designer.cs" />
+    <Compile Include="UI\CustomTabBarViewController.cs" />
+    <Compile Include="UI\CustomTabBarViewController.designer.cs" />
+    <Compile Include="UI\DetailViewController.cs" />
+    <Compile Include="UI\DetailViewController.designer.cs" />
+    <Compile Include="UI\Extensions.cs" />
+    <Compile Include="UI\MasterCell.cs" />
+    <Compile Include="UI\MasterCell.designer.cs" />
+    <Compile Include="UI\MasterCelliPad.cs" />
+    <Compile Include="UI\MasterCelliPad.designer.cs" />
+    <Compile Include="UI\MasterViewController.cs" />
+    <Compile Include="UI\MasterViewController.designer.cs" />
+    <Compile Include="UI\MKEntryPanel.cs" />
+    <Compile Include="UI\ModalViewController.cs" />
+    <Compile Include="UI\ModalViewController.designer.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Model\DataSource.cs" />
+    <Compile Include="Model\MenuItem.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <InterfaceDefinition Include="UI\iPad\MainStoryboard_iPad.storyboard" />
+    <InterfaceDefinition Include="UI\iPhone\MainStoryboard_iPhone.storyboard" />
+  </ItemGroup>
+</Project>

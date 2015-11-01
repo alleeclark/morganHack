@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+		Release|iPhone = Release|iPhone
+		Ad-Hoc|iPhone = Ad-Hoc|iPhone
+		AppStore|iPhone = AppStore|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{602BD0C3-9A72-4EE0-8728-88E93F5A0643}.Ad-Hoc|iPhone.ActiveCfg = Release|Any CPU
+		{602BD0C3-9A72-4EE0-8728-88E93F5A0643}.Ad-Hoc|iPhone.Build.0 = Release|Any CPU
+		{602BD0C3-9A72-4EE0-8728-88E93F5A0643}.AppStore|iPhone.ActiveCfg = Release|Any CPU
+		{602BD0C3-9A72-4EE0-8728-88E93F5A0643}.AppStore|iPhone.Build.0 = Release|Any CPU
+		{602BD0C3-9A72-4EE0-8728-88E93F5A0643}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{602BD0C3-9A72-4EE0-8728-88E93F5A0643}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{602BD0C3-9A72-4EE0-8728-88E93F5A0643}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{602BD0C3-9A72-4EE0-8728-88E93F5A0643}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{602BD0C3-9A72-4EE0-8728-88E93F5A0643}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{602BD0C3-9A72-4EE0-8728-88E93F5A0643}.Release|iPhone.Build.0 = Release|Any CPU
+		{602BD0C3-9A72-4EE0-8728-88E93F5A0643}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{602BD0C3-9A72-4EE0-8728-88E93F5A0643}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodyTheme.iOS.Sample-Classic", "FoodyTheme.iOS.Sample-Classic.csproj", "{D2379B22-0BF9-40F8-A87E-8A6749AF04BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodyTheme.iOS-Classic", "..\..\src\FoodyTheme.iOS\FoodyTheme.iOS-Classic.csproj", "{CDC7A3C7-B50B-4A07-A532-4FEF952425FD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+		Release|iPhone = Release|iPhone
+		Ad-Hoc|iPhone = Ad-Hoc|iPhone
+		AppStore|iPhone = AppStore|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CDC7A3C7-B50B-4A07-A532-4FEF952425FD}.Ad-Hoc|iPhone.ActiveCfg = Release|Any CPU
+		{CDC7A3C7-B50B-4A07-A532-4FEF952425FD}.Ad-Hoc|iPhone.Build.0 = Release|Any CPU
+		{CDC7A3C7-B50B-4A07-A532-4FEF952425FD}.AppStore|iPhone.ActiveCfg = Release|Any CPU
+		{CDC7A3C7-B50B-4A07-A532-4FEF952425FD}.AppStore|iPhone.Build.0 = Release|Any CPU
+		{CDC7A3C7-B50B-4A07-A532-4FEF952425FD}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{CDC7A3C7-B50B-4A07-A532-4FEF952425FD}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{CDC7A3C7-B50B-4A07-A532-4FEF952425FD}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{CDC7A3C7-B50B-4A07-A532-4FEF952425FD}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{CDC7A3C7-B50B-4A07-A532-4FEF952425FD}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{CDC7A3C7-B50B-4A07-A532-4FEF952425FD}.Release|iPhone.Build.0 = Release|Any CPU
+		{CDC7A3C7-B50B-4A07-A532-4FEF952425FD}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{CDC7A3C7-B50B-4A07-A532-4FEF952425FD}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{D2379B22-0BF9-40F8-A87E-8A6749AF04BF}.Ad-Hoc|iPhone.ActiveCfg = Ad-Hoc|iPhone
+		{D2379B22-0BF9-40F8-A87E-8A6749AF04BF}.Ad-Hoc|iPhone.Build.0 = Ad-Hoc|iPhone
+		{D2379B22-0BF9-40F8-A87E-8A6749AF04BF}.AppStore|iPhone.ActiveCfg = AppStore|iPhone
+		{D2379B22-0BF9-40F8-A87E-8A6749AF04BF}.AppStore|iPhone.Build.0 = AppStore|iPhone
+		{D2379B22-0BF9-40F8-A87E-8A6749AF04BF}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{D2379B22-0BF9-40F8-A87E-8A6749AF04BF}.Debug|iPhone.Build.0 = Debug|iPhone
+		{D2379B22-0BF9-40F8-A87E-8A6749AF04BF}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{D2379B22-0BF9-40F8-A87E-8A6749AF04BF}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{D2379B22-0BF9-40F8-A87E-8A6749AF04BF}.Release|iPhone.ActiveCfg = Release|iPhone
+		{D2379B22-0BF9-40F8-A87E-8A6749AF04BF}.Release|iPhone.Build.0 = Release|iPhone
+		{D2379B22-0BF9-40F8-A87E-8A6749AF04BF}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{D2379B22-0BF9-40F8-A87E-8A6749AF04BF}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = FoodyTheme.iOS.Sample-Classic.csproj
+	EndGlobalSection
+EndGlobal

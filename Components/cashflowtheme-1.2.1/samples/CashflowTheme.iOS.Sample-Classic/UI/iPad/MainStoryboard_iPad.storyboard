@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13E28" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" promptedForUpgradeToXcode5="NO" initialViewController="qtk-23-Blg">
+    <dependencies>
+        <deployment defaultVersion="1536" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="14">
+            <objects>
+                <navigationController id="3" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="6">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="19" kind="relationship" relationship="rootViewController" id="25"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="13" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-133" y="-2074"/>
+        </scene>
+        <!--Detail View Controller - Detail-->
+        <scene sceneID="16">
+            <objects>
+                <viewController title="Detail" id="4" customClass="DetailViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="26">
+                        <rect key="frame" x="0.0" y="64" width="768" height="904"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="Card_detail.png" id="tJh-xt-1sd" fixedFrame="YES">
+                                <rect key="frame" x="17" y="10" width="733" height="289"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="card_preview.png" id="Oz6-Zu-Xx7" fixedFrame="YES">
+                                <rect key="frame" x="10" y="0.0" width="747" height="362"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="card_notes.png" id="8JE-RR-ScM" fixedFrame="YES">
+                                <rect key="frame" x="10" y="370" width="747" height="285"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" delaysContentTouches="NO" editable="NO" id="WwS-Yi-cfm" fixedFrame="YES">
+                                <rect key="frame" x="34" y="390" width="700" height="257"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <string key="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+
+Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Tags:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="04D-Kb-OVJ" fixedFrame="YES">
+                                <rect key="frame" x="508" y="327" width="43" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                                <size key="shadowOffset" width="0.0" height="1"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Travel, Conference" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" minimumFontSize="10" id="kuP-h5-6OH" fixedFrame="YES">
+                                <rect key="frame" x="547" y="327" width="126" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" red="0.76275900139999997" green="0.22892632369999999" blue="0.16585115349999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <size key="shadowOffset" width="0.0" height="1"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="23" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="WWj-SY-XSd" fixedFrame="YES">
+                                <rect key="frame" x="696" y="307" width="37" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="23"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="IUN" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="Yly-Vz-Ags" fixedFrame="YES">
+                                <rect key="frame" x="695" y="328" width="39" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Cardiff Trip" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="NLi-Lb-aiy" fixedFrame="YES">
+                                <rect key="frame" x="17" y="312" width="222" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="Detail" id="53"/>
+                    <connections>
+                        <outlet property="lblDay" destination="WWj-SY-XSd" id="y7P-PI-31l"/>
+                        <outlet property="lblMonth" destination="Yly-Vz-Ags" id="WWA-s0-wCm"/>
+                        <outlet property="lblTitle" destination="NLi-Lb-aiy" id="PrA-95-Shv"/>
+                        <outlet property="txtDescription" destination="WwS-Yi-cfm" id="o7J-8p-NYs"/>
+                    </connections>
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="15" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="960" y="-1357"/>
+        </scene>
+        <!--Intelligent Split View Controller - Item-->
+        <scene sceneID="18">
+            <objects>
+                <splitViewController id="5" customClass="IntelligentSplitViewController" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" image="tabbar-icon1.png" id="VGS-FN-o34"/>
+                    <toolbarItems/>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="blackOpaque"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <connections>
+                        <segue destination="42" kind="relationship" relationship="detailViewController" id="51"/>
+                        <segue destination="3" kind="relationship" relationship="masterViewController" id="9"/>
+                    </connections>
+                </splitViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="17" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1868" y="-1533"/>
+        </scene>
+        <!--Master View Controlleri Pad - Master-->
+        <scene sceneID="24">
+            <objects>
+                <tableViewController title="Master" clearsSelectionOnViewWillAppear="NO" id="19" customClass="MasterViewControlleriPad" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="20">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="gray" indentationWidth="10" reuseIdentifier="MasterCell" rowHeight="69" id="VBf-Pf-pSj" customClass="MasterCelliPad">
+                                <rect key="frame" x="0.0" y="86" width="320" height="69"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="VBf-Pf-pSj" id="p4Q-4C-QuD">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="69"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="€" lineBreakMode="tailTruncation" minimumFontSize="10" id="Sfe-wA-4WJ" fixedFrame="YES">
+                                            <rect key="frame" x="298" y="5" width="17" height="28"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <size key="shadowOffset" width="0.0" height="1"/>
+                                        </label>
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="50.00" textAlignment="right" lineBreakMode="tailTruncation" minimumFontSize="10" id="fq6-r5-fJB" fixedFrame="YES">
+                                            <rect key="frame" x="232" y="5" width="65" height="29"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
+                                            <color key="textColor" red="0.8980392157" green="0.1764705882" blue="0.15686274510000001" alpha="1" colorSpace="calibratedRGB"/>
+                                            <size key="shadowOffset" width="0.0" height="1"/>
+                                        </label>
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Food provisions" lineBreakMode="tailTruncation" minimumFontSize="10" id="A6E-cm-CIo" fixedFrame="YES">
+                                            <rect key="frame" x="38" y="3" width="186" height="31"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="17"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <size key="shadowOffset" width="0.0" height="1"/>
+                                        </label>
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. " lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="10" id="Rgk-C9-cXI" fixedFrame="YES">
+                                            <rect key="frame" x="8" y="32" width="307" height="34"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="10"/>
+                                            <color key="textColor" colorSpace="calibratedRGB" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1"/>
+                                            <color key="highlightedColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                            <size key="shadowOffset" width="0.0" height="1"/>
+                                        </label>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="activity-car.png" id="W16-Pv-hnu" fixedFrame="YES">
+                                            <rect key="frame" x="8" y="6" width="24" height="24"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        </imageView>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="table-separator.png" id="7h6-D5-dAv" fixedFrame="YES">
+                                            <rect key="frame" x="0.0" y="68" width="320" height="2"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                        </imageView>
+                                    </subviews>
+                                </tableViewCellContentView>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="iconActivity" destination="W16-Pv-hnu" id="5tH-tK-pHw"/>
+                                    <outlet property="lblCurrency" destination="Sfe-wA-4WJ" id="cmP-5j-uXu"/>
+                                    <outlet property="lblDescription" destination="Rgk-C9-cXI" id="c2A-7s-Hqs"/>
+                                    <outlet property="lblTitle" destination="A6E-cm-CIo" id="GPP-Ug-nH5"/>
+                                    <outlet property="lblValue" destination="fq6-r5-fJB" id="P8c-zi-fBd"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <sections/>
+                        <connections>
+                            <outlet property="dataSource" destination="19" id="22"/>
+                            <outlet property="delegate" destination="19" id="21"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Master" id="40"/>
+                    <connections>
+                        <outlet property="searchDisplayController" destination="S8j-Ot-EDm" id="JoW-cc-LpA"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="23" sceneMemberID="firstResponder"/>
+                <searchDisplayController id="S8j-Ot-EDm">
+                    <connections>
+                        <outlet property="delegate" destination="19" id="ZB8-FK-P1o"/>
+                        <outlet property="searchBar" destination="KLA-w4-qBC" id="HuD-78-bcd"/>
+                        <outlet property="searchContentsController" destination="19" id="7Cz-Y9-b90"/>
+                        <outlet property="searchResultsDataSource" destination="19" id="u3n-8a-476"/>
+                        <outlet property="searchResultsDelegate" destination="19" id="A2H-Vc-DLg"/>
+                    </connections>
+                </searchDisplayController>
+            </objects>
+            <point key="canvasLocation" x="501" y="-1861"/>
+        </scene>
+        <!--Custom Tab Bar View Controller-->
+        <scene sceneID="tZB-Du-7BV">
+            <objects>
+                <tabBarController definesPresentationContext="YES" id="qtk-23-Blg" customClass="CustomTabBarViewController" sceneMemberID="viewController">
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="YZP-YR-WPi">
+                        <rect key="frame" x="0.0" y="968" width="768" height="56"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="5" kind="relationship" relationship="viewControllers" id="LXk-oK-2Hv"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QOv-b6-Kyd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2281" y="-324"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="50">
+            <objects>
+                <navigationController id="42" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="43">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="4" kind="relationship" relationship="rootViewController" id="52"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="49" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-541" y="-1032"/>
+        </scene>
+        <!--Empty View Controller-->
+        <!--Navigation Controller - Item-->
+        <!--Empty View Controller-->
+        <!--Navigation Controller - Item-->
+        <!--Empty View Controller-->
+        <!--Navigation Controller - Item-->
+        <!--Empty View Controller-->
+        <!--Navigation Controller - Item-->
+        <!--Modal View Controller-->
+        <scene sceneID="bjd-5S-ask">
+            <objects>
+                <viewController storyboardIdentifier="modalController" id="BHj-PJ-gTA" customClass="ModalViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="FoS-yM-Ik8">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" id="ofK-z0-E64" fixedFrame="YES">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Modal view" id="nF8-Eh-UWh">
+                                        <barButtonItem key="rightBarButtonItem" title="Close" id="xQl-sP-bdH">
+                                            <connections>
+                                                <action selector="closeWindow:" destination="BHj-PJ-gTA" id="Lvn-IN-pm6"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <view contentMode="scaleToFill" id="WgA-Tm-reo" fixedFrame="YES">
+                                <rect key="frame" x="0.0" y="44" width="768" height="980"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                            </view>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Anything you desire" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="vaq-Jq-49A" fixedFrame="YES">
+                                <rect key="frame" x="309" y="500" width="151" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="blackOpaque"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Fru-rP-2oT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-3390" y="1571"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Card_detail.png" width="297" height="120"/>
+        <image name="activity-car.png" width="24" height="24"/>
+        <image name="card_notes.png" width="747" height="285"/>
+        <image name="card_preview.png" width="307" height="173"/>
+        <image name="tabbar-icon1.png" width="25" height="28"/>
+        <image name="tabbar-icon2.png" width="34" height="28"/>
+        <image name="tabbar-icon3.png" width="27" height="29"/>
+        <image name="tabbar-icon4.png" width="18" height="29"/>
+        <image name="table-separator.png" width="285" height="2"/>
+        <image name="Images/Common/user_1.png" width="36" height="36"/>
+        <image name="Images/Common/user_frame.png" width="35" height="36"/>
+        <image name="Images/iPad/Card_detail@2x~ipad.png" width="1466" height="573"/>
+        <image name="Images/iPad/Card_detail~ipad.png" width="733" height="287"/>
+        <image name="Images/iPad/card_notes@2x~ipad.png" width="1494" height="569"/>
+        <image name="Images/iPad/card_notes~ipad.png" width="747" height="285"/>
+        <image name="Images/iPad/card_preview@2x~ipad.png" width="1494" height="723"/>
+        <image name="Images/iPad/card_preview~ipad.png" width="747" height="362"/>
+        <image name="Images/iPad/brown/background@2x~ipad.png" width="2048" height="1310"/>
+        <image name="Images/iPad/brown/background~ipad.png" width="1024" height="655"/>
+        <image name="Images/iPad/brown/table-row-bkg@2x~ipad.png" width="640" height="154"/>
+        <image name="Images/iPad/brown/table-row-bkg~ipad.png" width="320" height="77"/>
+        <image name="Images/iPad/brown/table-separator@2x~ipad.png" width="492" height="2"/>
+        <image name="Images/iPad/brown/table-separator~ipad.png" width="246" height="1"/>
+        <image name="Images/iPhone/activity-car.png" width="24" height="24"/>
+        <image name="Images/iPhone/activity-food.png" width="24" height="24"/>
+        <image name="Images/iPhone/activity-holiday.png" width="24" height="24"/>
+        <image name="Images/iPhone/activity-house.png" width="24" height="24"/>
+        <image name="Images/iPhone/add-revision.png" width="45" height="46"/>
+        <image name="Images/iPhone/card_notes.png" width="307" height="145"/>
+        <image name="Images/iPhone/card_preview.png" width="307" height="173"/>
+        <image name="Images/iPhone/sidemenu-count.png" width="30" height="24"/>
+        <image name="Images/iPhone/tabbar-icon1.png" width="25" height="28"/>
+        <image name="Images/iPhone/tabbar-icon2.png" width="34" height="28"/>
+        <image name="Images/iPhone/tabbar-icon3.png" width="27" height="29"/>
+        <image name="Images/iPhone/tabbar-icon4.png" width="18" height="29"/>
+        <image name="Images/iPhone/table-row-bkg.png" width="286" height="69"/>
+        <image name="Images/iPhone/table-separator.png" width="285" height="2"/>
+        <image name="Images/iPhone/text-input.png" width="272" height="38"/>
+        <image name="Images/iPhone/black/Default-568h.png" width="640" height="1136"/>
+        <image name="Images/iPhone/black/background-568h.png" width="640" height="950"/>
+        <image name="Images/iPhone/black/background.png" width="320" height="368"/>
+        <image name="Images/iPhone/black/button-menu.png" width="38" height="30"/>
+        <image name="Images/iPhone/black/menu-clock.png" width="30" height="19"/>
+        <image name="Images/iPhone/black/menu-eye.png" width="30" height="13"/>
+        <image name="Images/iPhone/black/menu-header.png" width="265" height="22"/>
+        <image name="Images/iPhone/black/menu-home.png" width="30" height="17"/>
+        <image name="Images/iPhone/black/menu-pin.png" width="30" height="21"/>
+        <image name="Images/iPhone/black/menu-separator.png" width="266" height="1"/>
+        <image name="Images/iPhone/black/revisions-bg.png" width="320" height="385"/>
+        <image name="Images/iPhone/black/tabbar-center.png" width="62" height="44"/>
+        <image name="Images/iPhone/brown/Default-568h.png" width="640" height="1136"/>
+        <image name="Images/iPhone/brown/background-568h.png" width="640" height="950"/>
+        <image name="Images/iPhone/brown/background.png" width="320" height="368"/>
+        <image name="Images/iPhone/brown/button-menu.png" width="38" height="30"/>
+        <image name="Images/iPhone/brown/menu-clock.png" width="30" height="19"/>
+        <image name="Images/iPhone/brown/menu-eye.png" width="30" height="13"/>
+        <image name="Images/iPhone/brown/menu-header.png" width="260" height="22"/>
+        <image name="Images/iPhone/brown/menu-home.png" width="30" height="17"/>
+        <image name="Images/iPhone/brown/menu-pin.png" width="30" height="21"/>
+        <image name="Images/iPhone/brown/menu-separator.png" width="266" height="1"/>
+        <image name="Images/iPhone/brown/revisions-bg.png" width="320" height="386"/>
+        <image name="Images/iPhone/brown/tabbar-center.png" width="62" height="44"/>
+        <image name="add-revision.png" width="45" height="46"/>
+        <image name="table-row-bkg.png" width="286" height="69"/>
+        <image name="Images/iPad/black/background.png" width="1024" height="723"/>
+        <image name="Images/iPad/black/table-row-bkg.png" width="320" height="77"/>
+        <image name="Card_detail@2x~ipad.png" width="1466" height="573"/>
+        <image name="Card_detail~ipad.png" width="733" height="287"/>
+        <image name="card_notes@2x~ipad.png" width="1494" height="569"/>
+        <image name="card_notes~ipad.png" width="747" height="285"/>
+        <image name="card_preview@2x~ipad.png" width="1494" height="723"/>
+        <image name="card_preview~ipad.png" width="747" height="362"/>
+        <image name="Images/iPad/black/table-separator~ipad.png" width="246" height="1"/>
+        <image name="Images/iPad/black/table-separator@2x~ipad.png" width="492" height="2"/>
+        <image name="table-separator@2x~ipad.png" width="492" height="2"/>
+        <image name="table-separator~ipad.png" width="246" height="1"/>
+        <image name="Images/iPad/activity-car.png" width="24" height="24"/>
+        <image name="Default-568h.png" width="640" height="1136"/>
+        <image name="revisions-bg.png" width="320" height="385"/>
+        <image name="menu-separator.png" width="266" height="1"/>
+        <image name="text-input.png" width="272" height="38"/>
+        <image name="icon.png" width="57" height="57"/>
+        <image name="icon72.png" width="72" height="72"/>
+        <image name="icon144.png" width="144" height="144"/>
+        <image name="Default.png" width="320" height="480"/>
+        <image name="Default-Portrait.png" width="768" height="1004"/>
+        <image name="Default-Landscape.png" width="1024" height="748"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar" statusBarStyle="blackOpaque"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>
